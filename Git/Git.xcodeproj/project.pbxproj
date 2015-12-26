@@ -15,6 +15,7 @@
 		7A276CFE1C2E80EF006AA544 /* ThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A276CFD1C2E80EF006AA544 /* ThreeViewController.m */; };
 		7A7DCFDB1C2E9FA200EA8DB3 /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A7DCFDA1C2E9FA200EA8DB3 /* OneViewController.m */; };
 		7AFE80671C2EA5C100A84B7E /* twoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AFE80661C2EA5C100A84B7E /* twoViewController.m */; };
+		F3A040E31C2EA73600E7F9C2 /* FourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3A040E21C2EA73600E7F9C2 /* FourViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,8 @@
 		7A7DCFDA1C2E9FA200EA8DB3 /* OneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
 		7AFE80651C2EA5C100A84B7E /* twoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = twoViewController.h; sourceTree = "<group>"; };
 		7AFE80661C2EA5C100A84B7E /* twoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = twoViewController.m; sourceTree = "<group>"; };
+		F3A040E11C2EA73600E7F9C2 /* FourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourViewController.h; sourceTree = "<group>"; };
+		F3A040E21C2EA73600E7F9C2 /* FourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,17 +88,19 @@
 		7A276CDB1C2E7F51006AA544 /* Git */ = {
 			isa = PBXGroup;
 			children = (
-				7AFE80651C2EA5C100A84B7E /* twoViewController.h */,
-				7AFE80661C2EA5C100A84B7E /* twoViewController.m */,
 				7A276CE01C2E7F51006AA544 /* AppDelegate.h */,
 				7A276CE11C2E7F51006AA544 /* AppDelegate.m */,
+				7A7DCFDA1C2E9FA200EA8DB3 /* OneViewController.m */,
+				7A7DCFD91C2E9FA200EA8DB3 /* OneViewController.h */,
+				7AFE80651C2EA5C100A84B7E /* twoViewController.h */,
+				7AFE80661C2EA5C100A84B7E /* twoViewController.m */,
 				7A276CFC1C2E80EF006AA544 /* ThreeViewController.h */,
 				7A276CFD1C2E80EF006AA544 /* ThreeViewController.m */,
+				F3A040E11C2EA73600E7F9C2 /* FourViewController.h */,
+				F3A040E21C2EA73600E7F9C2 /* FourViewController.m */,
 				7A276CE31C2E7F51006AA544 /* Images.xcassets */,
 				7A276CE51C2E7F51006AA544 /* LaunchScreen.xib */,
 				7A276CDC1C2E7F51006AA544 /* Supporting Files */,
-				7A7DCFD91C2E9FA200EA8DB3 /* OneViewController.h */,
-				7A7DCFDA1C2E9FA200EA8DB3 /* OneViewController.m */,
 			);
 			path = Git;
 			sourceTree = "<group>";
@@ -225,6 +230,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3A040E31C2EA73600E7F9C2 /* FourViewController.m in Sources */,
 				7A276CFE1C2E80EF006AA544 /* ThreeViewController.m in Sources */,
 				7A276CE21C2E7F51006AA544 /* AppDelegate.m in Sources */,
 				7A276CDF1C2E7F51006AA544 /* main.m in Sources */,
