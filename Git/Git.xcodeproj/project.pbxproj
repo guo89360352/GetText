@@ -12,6 +12,7 @@
 		7A276CE41C2E7F51006AA544 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A276CE31C2E7F51006AA544 /* Images.xcassets */; };
 		7A276CE71C2E7F51006AA544 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A276CE51C2E7F51006AA544 /* LaunchScreen.xib */; };
 		7A276CF31C2E7F52006AA544 /* GitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A276CF21C2E7F52006AA544 /* GitTests.m */; };
+		7A276CFE1C2E80EF006AA544 /* ThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A276CFD1C2E80EF006AA544 /* ThreeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,8 @@
 		7A276CEC1C2E7F52006AA544 /* GitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A276CF11C2E7F52006AA544 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7A276CF21C2E7F52006AA544 /* GitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitTests.m; sourceTree = "<group>"; };
+		7A276CFC1C2E80EF006AA544 /* ThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeViewController.h; sourceTree = "<group>"; };
+		7A276CFD1C2E80EF006AA544 /* ThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +81,8 @@
 			children = (
 				7A276CE01C2E7F51006AA544 /* AppDelegate.h */,
 				7A276CE11C2E7F51006AA544 /* AppDelegate.m */,
+				7A276CFC1C2E80EF006AA544 /* ThreeViewController.h */,
+				7A276CFD1C2E80EF006AA544 /* ThreeViewController.m */,
 				7A276CE31C2E7F51006AA544 /* Images.xcassets */,
 				7A276CE51C2E7F51006AA544 /* LaunchScreen.xib */,
 				7A276CDC1C2E7F51006AA544 /* Supporting Files */,
@@ -210,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A276CFE1C2E80EF006AA544 /* ThreeViewController.m in Sources */,
 				7A276CE21C2E7F51006AA544 /* AppDelegate.m in Sources */,
 				7A276CDF1C2E7F51006AA544 /* main.m in Sources */,
 			);
@@ -394,6 +400,7 @@
 				7A276CF81C2E7F52006AA544 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7A276CF91C2E7F52006AA544 /* Build configuration list for PBXNativeTarget "GitTests" */ = {
 			isa = XCConfigurationList;
@@ -402,6 +409,7 @@
 				7A276CFB1C2E7F52006AA544 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
