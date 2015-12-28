@@ -16,6 +16,7 @@
 		7A7DCFDB1C2E9FA200EA8DB3 /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A7DCFDA1C2E9FA200EA8DB3 /* OneViewController.m */; };
 		7AFE80671C2EA5C100A84B7E /* twoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AFE80661C2EA5C100A84B7E /* twoViewController.m */; };
 		F3A040E31C2EA73600E7F9C2 /* FourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3A040E21C2EA73600E7F9C2 /* FourViewController.m */; };
+		F3F2D9381C313A970042535A /* FiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3F2D9371C313A970042535A /* FiveViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,8 @@
 		7AFE80661C2EA5C100A84B7E /* twoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = twoViewController.m; sourceTree = "<group>"; };
 		F3A040E11C2EA73600E7F9C2 /* FourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourViewController.h; sourceTree = "<group>"; };
 		F3A040E21C2EA73600E7F9C2 /* FourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourViewController.m; sourceTree = "<group>"; };
+		F3F2D9361C313A970042535A /* FiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FiveViewController.h; sourceTree = "<group>"; };
+		F3F2D9371C313A970042535A /* FiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FiveViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +101,8 @@
 				7A276CFD1C2E80EF006AA544 /* ThreeViewController.m */,
 				F3A040E11C2EA73600E7F9C2 /* FourViewController.h */,
 				F3A040E21C2EA73600E7F9C2 /* FourViewController.m */,
+				F3F2D9361C313A970042535A /* FiveViewController.h */,
+				F3F2D9371C313A970042535A /* FiveViewController.m */,
 				7A276CE31C2E7F51006AA544 /* Images.xcassets */,
 				7A276CE51C2E7F51006AA544 /* LaunchScreen.xib */,
 				7A276CDC1C2E7F51006AA544 /* Supporting Files */,
@@ -236,6 +241,7 @@
 				7A276CDF1C2E7F51006AA544 /* main.m in Sources */,
 				7A7DCFDB1C2E9FA200EA8DB3 /* OneViewController.m in Sources */,
 				7AFE80671C2EA5C100A84B7E /* twoViewController.m in Sources */,
+				F3F2D9381C313A970042535A /* FiveViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
